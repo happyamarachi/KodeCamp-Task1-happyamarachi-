@@ -1,10 +1,10 @@
 // Q 1. Javascript statement that reverses a string supplied to it
 
-let str = "Hello";
+// let str = "Hello";
 
-let reversed =str.split("").reverse().join("");
+// let reversed =str.split("").reverse().join("");
 
-console.log(reversed); // "olleH";
+// console.log(reversed); // "olleH";
 
 
 // Q 2. SHORT NOTES ON DATA TYPES AND 3 METHODS EACH
@@ -24,51 +24,5 @@ console.log(reversed); // "olleH";
 
 //   Q 3. An if statements that checks a variable and prints out remarks
 
-let score = 85;
 
-if(score >= 70 && score <= 100) {
-    console.log("Excellent");
-} else{
-    console.log("Not Excellent");
-}
-
-let score = 65;
-
-if(score >= 60 && score <= 69) {
-    console.log("Very good");
-} else {
-    console.log("Not in range 60-69");
-}
-
-let score = 54;
-
-if(score >= 50 && score <= 59) {
-    console.log("Good");
-} else {
-    console.log("Not in range 50-59");
-}
-
-let score = 45;
-
-if(score >= 40 && score <= 49) {
-    console.log("Poor");
-} else {
-    console.log("Not in range 40-49");
-}
-
-let score = 25;
-
-if(score >= 0 && score <= 39) {
-    console.log("Very poor");
-} else {
-    console.log("Not in range 0-39");
-}
-
-let score = 105;
-
-if(score < 0 || score > 100) {
-    console.log("Invalid score");
-} else {
-    console.log("Score is valid");
-}
 

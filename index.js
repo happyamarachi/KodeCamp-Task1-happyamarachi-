@@ -37,15 +37,15 @@
 // // console.log(namesOfPeopleInClass[4]);
 
 
-const fruits = [
-    "apple",
-    "orange",
-    "pineapple",
-    "grape",
-];
+// const fruits = [
+//     "apple",
+//     "orange",
+//     "pineapple",
+//     "grape",
+// ];
 
-for(let i = 0; i < 10; i++) {
-    console.log(i + 1);    for while loop
+// for(let i = 0; i < 10; i++) {
+//     console.log(i + 1);    for while loop
 }
 
 // let i = 0;
@@ -59,3 +59,7 @@ for(let i = 0; i < 10; i++) {
 // for(let i = 0; i <= 10; i++) {    a for loop has a definite end
 //     console.log(i);
 // }
+
+let x = 4;
+let y = 6;
+let z = 4 + "Hi";
