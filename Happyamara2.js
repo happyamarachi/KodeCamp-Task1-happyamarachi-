@@ -42,6 +42,7 @@
 
 //   Q 3. An if statements that checks a variable and prints out remarks
 
+
 // const studentScore = 0;
 
 // if(studentScore >= 70 && studentScore <= 100) {
@@ -69,4 +70,3 @@ function greeting() {
     console.log("Hello, how are you doing?". + "What is your name?");
 }
 
-greeting();
