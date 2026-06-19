@@ -227,3 +227,6 @@
 // sayHelloto();
 
 
+const nums = 12 % 3;
+
+console.log(nums);

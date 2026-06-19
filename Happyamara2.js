@@ -42,20 +42,31 @@
 
 //   Q 3. An if statements that checks a variable and prints out remarks
 
-const studentScore = 0;
 
-if(studentScore >= 70 && studentScore <= 100) {
-    console.log("Excellent");
-} else if(studentScore >= 60 && studentScore <= 69) {
-    console.log("Very good");
-} else if(studentScore >= 50 && studentScore <= 59) {
-    console.log("Good");
-} else if(studentScore >= 40 && studentScore <= 49) {
-    console.log("Poor");
-} else if(studentScore >= 0 && studentScore <= 39) {
-    console.log("Very poor");
-} else if(studentScore < 0 && studentScore > 100) {
-    console.log("Score is valid");
-} else {
-    console.log("Invalid score");
+// const studentScore = 0;
+
+// if(studentScore >= 70 && studentScore <= 100) {
+//     console.log("Excellent");
+// } else if(studentScore >= 60 && studentScore <= 69) {
+//     console.log("Very good");
+// } else if(studentScore >= 50 && studentScore <= 59) {
+//     console.log("Good");
+// } else if(studentScore >= 40 && studentScore <= 49) {
+//     console.log("Poor");
+// } else if(studentScore >= 0 && studentScore <= 39) {
+//     console.log("Very poor");
+// } else if(studentScore < 0 && studentScore > 100) {
+//     console.log("Score is valid");
+// } else {
+//     console.log("Invalid score");
+// }
+
+// const ourArray = [[1, 2, 3, 4], [3, 4, 5], [3, 4, 5, 6]];
+
+// let myData = ourArray[1][2];
+
+// console.log(myData);
+function greeting() {
+    console.log("Hello, how are you doing?". + "What is your name?");
 }
+
